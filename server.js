@@ -1,7 +1,7 @@
 import express from 'express';
 import dotenv from 'dotenv-defaults';
 import mongoose from 'mongoose';
-import router from './routes/index.js';
+import router from './backend/routes/index.js';
 dotenv.config();
 const app = express();
 //init middleware
